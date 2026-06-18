@@ -1,0 +1,778 @@
+{
+  "meta": {
+    "date": "2026-06-18T23:17:00.217504",
+    "version": "1.0",
+    "systeme": "LandGuard Neuro-Symbolic AI"
+  },
+  "dataset": {
+    "total_cas": 200,
+    "repartition": {
+      "standard": 120,
+      "speculation": 20,
+      "accaparement": 20,
+      "limite": 20,
+      "fraude_sophistiquee": 20
+    },
+    "statistiques": {
+      "score_risque_moyen": 0.455,
+      "score_risque_max": 1.0,
+      "score_risque_min": 0.17
+    }
+  },
+  "resume": {
+    "accaparement": {
+      "nb_cas": 20,
+      "score_moyen": 0.76,
+      "alerte": true
+    },
+    "fraude_sophistiquee": {
+      "nb_cas": 20,
+      "score_moyen": 0.99,
+      "alerte": true
+    },
+    "limite": {
+      "nb_cas": 20,
+      "score_moyen": 0.655,
+      "alerte": true
+    },
+    "speculation": {
+      "nb_cas": 20,
+      "score_moyen": 0.79,
+      "alerte": true
+    },
+    "standard": {
+      "nb_cas": 120,
+      "score_moyen": 0.22583333333333336,
+      "alerte": false
+    }
+  },
+  "alertes": [
+    {
+      "personne": "Ouaga_Spec_013",
+      "type": "speculation",
+      "score_risque": 0.72,
+      "niveau": "ÉLEVÉ",
+      "description": "Revente rapide et plus-value anormale a Ouagadougou",
+      "explication": "Fréquence de revente élevée: 2 | Plus-value anormale: 88% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Ouaga_Spec_014",
+      "type": "speculation",
+      "score_risque": 0.86,
+      "niveau": "CRITIQUE",
+      "description": "Revente rapide et plus-value anormale a Ouagadougou",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 112% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Ouaga_Acc_016",
+      "type": "accaparement",
+      "score_risque": 0.84,
+      "niveau": "CRITIQUE",
+      "description": "Concentration urbaine forte a Ouagadougou",
+      "explication": "Possède 10 parcelles | Réseau suspect: 3 liens | Partage de téléphone suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Ouaga_Lim_018",
+      "type": "limite",
+      "score_risque": 0.76,
+      "niveau": "ÉLEVÉ",
+      "description": "Cas frontalier a surveiller a Ouagadougou",
+      "explication": "Possède 5 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 63% | Réseau suspect: 2 liens | Partage de téléphone suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Ouaga_Fraud_019",
+      "type": "fraude_sophistiquee",
+      "score_risque": 0.98,
+      "niveau": "CRITIQUE",
+      "description": "Reseau familial de prete-noms",
+      "explication": "Possède 7 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 154% | Réseau suspect: 4 liens | Partage de téléphone suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Ouaga_Fraud_020",
+      "type": "fraude_sophistiquee",
+      "score_risque": 1.0,
+      "niveau": "CRITIQUE",
+      "description": "Conflit d interet indirect avec notaire",
+      "explication": "Possède 9 parcelles | Fréquence de revente élevée: 4 | Plus-value anormale: 210% | Réseau suspect: 5 liens | Partage de téléphone suspect | Partage d'adresse suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Bobo_Spec_033",
+      "type": "speculation",
+      "score_risque": 0.72,
+      "niveau": "ÉLEVÉ",
+      "description": "Revente rapide et plus-value anormale a Bobo-Dioulasso",
+      "explication": "Fréquence de revente élevée: 2 | Plus-value anormale: 88% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Bobo_Spec_034",
+      "type": "speculation",
+      "score_risque": 0.86,
+      "niveau": "CRITIQUE",
+      "description": "Revente rapide et plus-value anormale a Bobo-Dioulasso",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 112% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Bobo_Acc_036",
+      "type": "accaparement",
+      "score_risque": 0.84,
+      "niveau": "CRITIQUE",
+      "description": "Concentration urbaine forte a Bobo-Dioulasso",
+      "explication": "Possède 10 parcelles | Réseau suspect: 3 liens | Partage de téléphone suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Bobo_Lim_038",
+      "type": "limite",
+      "score_risque": 0.76,
+      "niveau": "ÉLEVÉ",
+      "description": "Cas frontalier a surveiller a Bobo-Dioulasso",
+      "explication": "Possède 5 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 63% | Réseau suspect: 2 liens | Partage de téléphone suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Bobo_Fraud_039",
+      "type": "fraude_sophistiquee",
+      "score_risque": 0.98,
+      "niveau": "CRITIQUE",
+      "description": "Reseau circulaire de blanchiment foncier",
+      "explication": "Possède 7 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 154% | Réseau suspect: 4 liens | Partage de téléphone suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Bobo_Fraud_040",
+      "type": "fraude_sophistiquee",
+      "score_risque": 1.0,
+      "niveau": "CRITIQUE",
+      "description": "Promoteur fantome sans identite stable",
+      "explication": "Possède 9 parcelles | Fréquence de revente élevée: 4 | Plus-value anormale: 210% | Réseau suspect: 5 liens | Partage de téléphone suspect | Partage d'adresse suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Koudougou_Spec_053",
+      "type": "speculation",
+      "score_risque": 0.72,
+      "niveau": "ÉLEVÉ",
+      "description": "Revente rapide et plus-value anormale a Koudougou",
+      "explication": "Fréquence de revente élevée: 2 | Plus-value anormale: 88% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Koudougou_Spec_054",
+      "type": "speculation",
+      "score_risque": 0.86,
+      "niveau": "CRITIQUE",
+      "description": "Revente rapide et plus-value anormale a Koudougou",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 112% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Koudougou_Acc_056",
+      "type": "accaparement",
+      "score_risque": 0.84,
+      "niveau": "CRITIQUE",
+      "description": "Concentration urbaine forte a Koudougou",
+      "explication": "Possède 10 parcelles | Réseau suspect: 3 liens | Partage de téléphone suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Koudougou_Lim_058",
+      "type": "limite",
+      "score_risque": 0.76,
+      "niveau": "ÉLEVÉ",
+      "description": "Cas frontalier a surveiller a Koudougou",
+      "explication": "Possède 5 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 63% | Réseau suspect: 2 liens | Partage de téléphone suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Koudougou_Fraud_059",
+      "type": "fraude_sophistiquee",
+      "score_risque": 0.98,
+      "niveau": "CRITIQUE",
+      "description": "Reseau familial de prete-noms",
+      "explication": "Possède 7 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 154% | Réseau suspect: 4 liens | Partage de téléphone suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Koudougou_Fraud_060",
+      "type": "fraude_sophistiquee",
+      "score_risque": 1.0,
+      "niveau": "CRITIQUE",
+      "description": "Conflit d interet indirect avec notaire",
+      "explication": "Possède 9 parcelles | Fréquence de revente élevée: 4 | Plus-value anormale: 210% | Réseau suspect: 5 liens | Partage de téléphone suspect | Partage d'adresse suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Banfora_Spec_073",
+      "type": "speculation",
+      "score_risque": 0.72,
+      "niveau": "ÉLEVÉ",
+      "description": "Revente rapide et plus-value anormale a Banfora",
+      "explication": "Fréquence de revente élevée: 2 | Plus-value anormale: 88% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Banfora_Spec_074",
+      "type": "speculation",
+      "score_risque": 0.86,
+      "niveau": "CRITIQUE",
+      "description": "Revente rapide et plus-value anormale a Banfora",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 112% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Banfora_Acc_076",
+      "type": "accaparement",
+      "score_risque": 0.84,
+      "niveau": "CRITIQUE",
+      "description": "Concentration urbaine forte a Banfora",
+      "explication": "Possède 10 parcelles | Réseau suspect: 3 liens | Partage de téléphone suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Banfora_Lim_078",
+      "type": "limite",
+      "score_risque": 0.76,
+      "niveau": "ÉLEVÉ",
+      "description": "Cas frontalier a surveiller a Banfora",
+      "explication": "Possède 5 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 63% | Réseau suspect: 2 liens | Partage de téléphone suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Banfora_Fraud_079",
+      "type": "fraude_sophistiquee",
+      "score_risque": 0.98,
+      "niveau": "CRITIQUE",
+      "description": "Promoteur fantome sans identite stable",
+      "explication": "Possède 7 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 154% | Réseau suspect: 4 liens | Partage de téléphone suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Banfora_Fraud_080",
+      "type": "fraude_sophistiquee",
+      "score_risque": 1.0,
+      "niveau": "CRITIQUE",
+      "description": "Fraude composite neuro-symbolique",
+      "explication": "Possède 9 parcelles | Fréquence de revente élevée: 4 | Plus-value anormale: 210% | Réseau suspect: 5 liens | Partage de téléphone suspect | Partage d'adresse suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Kaya_Spec_093",
+      "type": "speculation",
+      "score_risque": 0.72,
+      "niveau": "ÉLEVÉ",
+      "description": "Revente rapide et plus-value anormale a Kaya",
+      "explication": "Fréquence de revente élevée: 2 | Plus-value anormale: 88% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Kaya_Spec_094",
+      "type": "speculation",
+      "score_risque": 0.86,
+      "niveau": "CRITIQUE",
+      "description": "Revente rapide et plus-value anormale a Kaya",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 112% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Kaya_Acc_096",
+      "type": "accaparement",
+      "score_risque": 0.84,
+      "niveau": "CRITIQUE",
+      "description": "Concentration urbaine forte a Kaya",
+      "explication": "Possède 10 parcelles | Réseau suspect: 3 liens | Partage de téléphone suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Kaya_Lim_098",
+      "type": "limite",
+      "score_risque": 0.76,
+      "niveau": "ÉLEVÉ",
+      "description": "Cas frontalier a surveiller a Kaya",
+      "explication": "Possède 5 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 63% | Réseau suspect: 2 liens | Partage de téléphone suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Kaya_Fraud_099",
+      "type": "fraude_sophistiquee",
+      "score_risque": 0.98,
+      "niveau": "CRITIQUE",
+      "description": "Reseau circulaire de blanchiment foncier",
+      "explication": "Possède 7 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 154% | Réseau suspect: 4 liens | Partage de téléphone suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Kaya_Fraud_100",
+      "type": "fraude_sophistiquee",
+      "score_risque": 1.0,
+      "niveau": "CRITIQUE",
+      "description": "Reseau familial de prete-noms",
+      "explication": "Possède 9 parcelles | Fréquence de revente élevée: 4 | Plus-value anormale: 210% | Réseau suspect: 5 liens | Partage de téléphone suspect | Partage d'adresse suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Fada_Ngourma_Spec_113",
+      "type": "speculation",
+      "score_risque": 0.72,
+      "niveau": "ÉLEVÉ",
+      "description": "Revente rapide et plus-value anormale a Fada Ngourma",
+      "explication": "Fréquence de revente élevée: 2 | Plus-value anormale: 88% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Fada_Ngourma_Spec_114",
+      "type": "speculation",
+      "score_risque": 0.86,
+      "niveau": "CRITIQUE",
+      "description": "Revente rapide et plus-value anormale a Fada Ngourma",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 112% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Fada_Ngourma_Acc_116",
+      "type": "accaparement",
+      "score_risque": 0.84,
+      "niveau": "CRITIQUE",
+      "description": "Concentration urbaine forte a Fada Ngourma",
+      "explication": "Possède 10 parcelles | Réseau suspect: 3 liens | Partage de téléphone suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Fada_Ngourma_Lim_118",
+      "type": "limite",
+      "score_risque": 0.76,
+      "niveau": "ÉLEVÉ",
+      "description": "Cas frontalier a surveiller a Fada Ngourma",
+      "explication": "Possède 5 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 63% | Réseau suspect: 2 liens | Partage de téléphone suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Fada_Ngourma_Fraud_119",
+      "type": "fraude_sophistiquee",
+      "score_risque": 0.98,
+      "niveau": "CRITIQUE",
+      "description": "Promoteur fantome sans identite stable",
+      "explication": "Possède 7 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 154% | Réseau suspect: 4 liens | Partage de téléphone suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Fada_Ngourma_Fraud_120",
+      "type": "fraude_sophistiquee",
+      "score_risque": 1.0,
+      "niveau": "CRITIQUE",
+      "description": "Fraude composite neuro-symbolique",
+      "explication": "Possède 9 parcelles | Fréquence de revente élevée: 4 | Plus-value anormale: 210% | Réseau suspect: 5 liens | Partage de téléphone suspect | Partage d'adresse suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Ouahigouya_Spec_133",
+      "type": "speculation",
+      "score_risque": 0.72,
+      "niveau": "ÉLEVÉ",
+      "description": "Revente rapide et plus-value anormale a Ouahigouya",
+      "explication": "Fréquence de revente élevée: 2 | Plus-value anormale: 88% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Ouahigouya_Spec_134",
+      "type": "speculation",
+      "score_risque": 0.86,
+      "niveau": "CRITIQUE",
+      "description": "Revente rapide et plus-value anormale a Ouahigouya",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 112% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Ouahigouya_Acc_136",
+      "type": "accaparement",
+      "score_risque": 0.84,
+      "niveau": "CRITIQUE",
+      "description": "Concentration urbaine forte a Ouahigouya",
+      "explication": "Possède 10 parcelles | Réseau suspect: 3 liens | Partage de téléphone suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Ouahigouya_Lim_138",
+      "type": "limite",
+      "score_risque": 0.76,
+      "niveau": "ÉLEVÉ",
+      "description": "Cas frontalier a surveiller a Ouahigouya",
+      "explication": "Possède 5 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 63% | Réseau suspect: 2 liens | Partage de téléphone suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Ouahigouya_Fraud_139",
+      "type": "fraude_sophistiquee",
+      "score_risque": 0.98,
+      "niveau": "CRITIQUE",
+      "description": "Reseau familial de prete-noms",
+      "explication": "Possède 7 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 154% | Réseau suspect: 4 liens | Partage de téléphone suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Ouahigouya_Fraud_140",
+      "type": "fraude_sophistiquee",
+      "score_risque": 1.0,
+      "niveau": "CRITIQUE",
+      "description": "Conflit d interet indirect avec notaire",
+      "explication": "Possède 9 parcelles | Fréquence de revente élevée: 4 | Plus-value anormale: 210% | Réseau suspect: 5 liens | Partage de téléphone suspect | Partage d'adresse suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Tenkodogo_Spec_153",
+      "type": "speculation",
+      "score_risque": 0.72,
+      "niveau": "ÉLEVÉ",
+      "description": "Revente rapide et plus-value anormale a Tenkodogo",
+      "explication": "Fréquence de revente élevée: 2 | Plus-value anormale: 88% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Tenkodogo_Spec_154",
+      "type": "speculation",
+      "score_risque": 0.86,
+      "niveau": "CRITIQUE",
+      "description": "Revente rapide et plus-value anormale a Tenkodogo",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 112% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Tenkodogo_Acc_156",
+      "type": "accaparement",
+      "score_risque": 0.84,
+      "niveau": "CRITIQUE",
+      "description": "Concentration urbaine forte a Tenkodogo",
+      "explication": "Possède 10 parcelles | Réseau suspect: 3 liens | Partage de téléphone suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Tenkodogo_Lim_158",
+      "type": "limite",
+      "score_risque": 0.76,
+      "niveau": "ÉLEVÉ",
+      "description": "Cas frontalier a surveiller a Tenkodogo",
+      "explication": "Possède 5 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 63% | Réseau suspect: 2 liens | Partage de téléphone suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Tenkodogo_Fraud_159",
+      "type": "fraude_sophistiquee",
+      "score_risque": 0.98,
+      "niveau": "CRITIQUE",
+      "description": "Reseau circulaire de blanchiment foncier",
+      "explication": "Possède 7 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 154% | Réseau suspect: 4 liens | Partage de téléphone suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Tenkodogo_Fraud_160",
+      "type": "fraude_sophistiquee",
+      "score_risque": 1.0,
+      "niveau": "CRITIQUE",
+      "description": "Promoteur fantome sans identite stable",
+      "explication": "Possède 9 parcelles | Fréquence de revente élevée: 4 | Plus-value anormale: 210% | Réseau suspect: 5 liens | Partage de téléphone suspect | Partage d'adresse suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Dori_Spec_173",
+      "type": "speculation",
+      "score_risque": 0.72,
+      "niveau": "ÉLEVÉ",
+      "description": "Revente rapide et plus-value anormale a Dori",
+      "explication": "Fréquence de revente élevée: 2 | Plus-value anormale: 88% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Dori_Spec_174",
+      "type": "speculation",
+      "score_risque": 0.86,
+      "niveau": "CRITIQUE",
+      "description": "Revente rapide et plus-value anormale a Dori",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 112% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Dori_Acc_176",
+      "type": "accaparement",
+      "score_risque": 0.84,
+      "niveau": "CRITIQUE",
+      "description": "Concentration urbaine forte a Dori",
+      "explication": "Possède 10 parcelles | Réseau suspect: 3 liens | Partage de téléphone suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Dori_Lim_178",
+      "type": "limite",
+      "score_risque": 0.76,
+      "niveau": "ÉLEVÉ",
+      "description": "Cas frontalier a surveiller a Dori",
+      "explication": "Possède 5 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 63% | Réseau suspect: 2 liens | Partage de téléphone suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Dori_Fraud_179",
+      "type": "fraude_sophistiquee",
+      "score_risque": 0.98,
+      "niveau": "CRITIQUE",
+      "description": "Fraude composite neuro-symbolique",
+      "explication": "Possède 7 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 154% | Réseau suspect: 4 liens | Partage de téléphone suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Dori_Fraud_180",
+      "type": "fraude_sophistiquee",
+      "score_risque": 1.0,
+      "niveau": "CRITIQUE",
+      "description": "Reseau familial de prete-noms",
+      "explication": "Possède 9 parcelles | Fréquence de revente élevée: 4 | Plus-value anormale: 210% | Réseau suspect: 5 liens | Partage de téléphone suspect | Partage d'adresse suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Gaoua_Spec_193",
+      "type": "speculation",
+      "score_risque": 0.72,
+      "niveau": "ÉLEVÉ",
+      "description": "Revente rapide et plus-value anormale a Gaoua",
+      "explication": "Fréquence de revente élevée: 2 | Plus-value anormale: 88% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Gaoua_Spec_194",
+      "type": "speculation",
+      "score_risque": 0.86,
+      "niveau": "CRITIQUE",
+      "description": "Revente rapide et plus-value anormale a Gaoua",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 112% | Réseau suspect: 2 liens | Partage de téléphone suspect | Partage d'adresse suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Gaoua_Acc_196",
+      "type": "accaparement",
+      "score_risque": 0.84,
+      "niveau": "CRITIQUE",
+      "description": "Concentration urbaine forte a Gaoua",
+      "explication": "Possède 10 parcelles | Réseau suspect: 3 liens | Partage de téléphone suspect",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Gaoua_Lim_198",
+      "type": "limite",
+      "score_risque": 0.76,
+      "niveau": "ÉLEVÉ",
+      "description": "Cas frontalier a surveiller a Gaoua",
+      "explication": "Possède 5 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 63% | Réseau suspect: 2 liens | Partage de téléphone suspect",
+      "recommandation": "Surveillance renforcée"
+    },
+    {
+      "personne": "Gaoua_Fraud_199",
+      "type": "fraude_sophistiquee",
+      "score_risque": 0.98,
+      "niveau": "CRITIQUE",
+      "description": "Promoteur fantome sans identite stable",
+      "explication": "Possède 7 parcelles | Fréquence de revente élevée: 3 | Plus-value anormale: 154% | Réseau suspect: 4 liens | Partage de téléphone suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    },
+    {
+      "personne": "Gaoua_Fraud_200",
+      "type": "fraude_sophistiquee",
+      "score_risque": 1.0,
+      "niveau": "CRITIQUE",
+      "description": "Fraude composite neuro-symbolique",
+      "explication": "Possède 9 parcelles | Fréquence de revente élevée: 4 | Plus-value anormale: 210% | Réseau suspect: 5 liens | Partage de téléphone suspect | Partage d'adresse suspect | Agent public impliqué",
+      "recommandation": "Audit approfondi et gel des transactions"
+    }
+  ],
+  "detections": [
+    {
+      "personne": "Ouaga_Acc_015",
+      "type": "accaparement",
+      "score_risque": 0.68,
+      "niveau": "ÉLEVÉ",
+      "description": "Concentration urbaine forte a Ouagadougou",
+      "explication": "Possède 8 parcelles | Réseau suspect: 2 liens",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Ouaga_Lim_017",
+      "type": "limite",
+      "score_risque": 0.55,
+      "niveau": "MOYEN",
+      "description": "Cas frontalier a surveiller a Ouagadougou",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 2 | Plus-value anormale: 58% | Partage d'adresse suspect",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Bobo_Acc_035",
+      "type": "accaparement",
+      "score_risque": 0.68,
+      "niveau": "ÉLEVÉ",
+      "description": "Concentration urbaine forte a Bobo-Dioulasso",
+      "explication": "Possède 8 parcelles | Réseau suspect: 2 liens",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Bobo_Lim_037",
+      "type": "limite",
+      "score_risque": 0.55,
+      "niveau": "MOYEN",
+      "description": "Cas frontalier a surveiller a Bobo-Dioulasso",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 2 | Plus-value anormale: 58% | Partage d'adresse suspect",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Koudougou_Acc_055",
+      "type": "accaparement",
+      "score_risque": 0.68,
+      "niveau": "ÉLEVÉ",
+      "description": "Concentration urbaine forte a Koudougou",
+      "explication": "Possède 8 parcelles | Réseau suspect: 2 liens",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Koudougou_Lim_057",
+      "type": "limite",
+      "score_risque": 0.55,
+      "niveau": "MOYEN",
+      "description": "Cas frontalier a surveiller a Koudougou",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 2 | Plus-value anormale: 58% | Partage d'adresse suspect",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Banfora_Acc_075",
+      "type": "accaparement",
+      "score_risque": 0.68,
+      "niveau": "ÉLEVÉ",
+      "description": "Concentration urbaine forte a Banfora",
+      "explication": "Possède 8 parcelles | Réseau suspect: 2 liens",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Banfora_Lim_077",
+      "type": "limite",
+      "score_risque": 0.55,
+      "niveau": "MOYEN",
+      "description": "Cas frontalier a surveiller a Banfora",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 2 | Plus-value anormale: 58% | Partage d'adresse suspect",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Kaya_Acc_095",
+      "type": "accaparement",
+      "score_risque": 0.68,
+      "niveau": "ÉLEVÉ",
+      "description": "Concentration urbaine forte a Kaya",
+      "explication": "Possède 8 parcelles | Réseau suspect: 2 liens",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Kaya_Lim_097",
+      "type": "limite",
+      "score_risque": 0.55,
+      "niveau": "MOYEN",
+      "description": "Cas frontalier a surveiller a Kaya",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 2 | Plus-value anormale: 58% | Partage d'adresse suspect",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Fada_Ngourma_Acc_115",
+      "type": "accaparement",
+      "score_risque": 0.68,
+      "niveau": "ÉLEVÉ",
+      "description": "Concentration urbaine forte a Fada Ngourma",
+      "explication": "Possède 8 parcelles | Réseau suspect: 2 liens",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Fada_Ngourma_Lim_117",
+      "type": "limite",
+      "score_risque": 0.55,
+      "niveau": "MOYEN",
+      "description": "Cas frontalier a surveiller a Fada Ngourma",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 2 | Plus-value anormale: 58% | Partage d'adresse suspect",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Ouahigouya_Acc_135",
+      "type": "accaparement",
+      "score_risque": 0.68,
+      "niveau": "ÉLEVÉ",
+      "description": "Concentration urbaine forte a Ouahigouya",
+      "explication": "Possède 8 parcelles | Réseau suspect: 2 liens",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Ouahigouya_Lim_137",
+      "type": "limite",
+      "score_risque": 0.55,
+      "niveau": "MOYEN",
+      "description": "Cas frontalier a surveiller a Ouahigouya",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 2 | Plus-value anormale: 58% | Partage d'adresse suspect",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Tenkodogo_Acc_155",
+      "type": "accaparement",
+      "score_risque": 0.68,
+      "niveau": "ÉLEVÉ",
+      "description": "Concentration urbaine forte a Tenkodogo",
+      "explication": "Possède 8 parcelles | Réseau suspect: 2 liens",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Tenkodogo_Lim_157",
+      "type": "limite",
+      "score_risque": 0.55,
+      "niveau": "MOYEN",
+      "description": "Cas frontalier a surveiller a Tenkodogo",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 2 | Plus-value anormale: 58% | Partage d'adresse suspect",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Dori_Acc_175",
+      "type": "accaparement",
+      "score_risque": 0.68,
+      "niveau": "ÉLEVÉ",
+      "description": "Concentration urbaine forte a Dori",
+      "explication": "Possède 8 parcelles | Réseau suspect: 2 liens",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Dori_Lim_177",
+      "type": "limite",
+      "score_risque": 0.55,
+      "niveau": "MOYEN",
+      "description": "Cas frontalier a surveiller a Dori",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 2 | Plus-value anormale: 58% | Partage d'adresse suspect",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Gaoua_Acc_195",
+      "type": "accaparement",
+      "score_risque": 0.68,
+      "niveau": "ÉLEVÉ",
+      "description": "Concentration urbaine forte a Gaoua",
+      "explication": "Possède 8 parcelles | Réseau suspect: 2 liens",
+      "recommandation": "Vérification documentaire"
+    },
+    {
+      "personne": "Gaoua_Lim_197",
+      "type": "limite",
+      "score_risque": 0.55,
+      "niveau": "MOYEN",
+      "description": "Cas frontalier a surveiller a Gaoua",
+      "explication": "Possède 4 parcelles | Fréquence de revente élevée: 2 | Plus-value anormale: 58% | Partage d'adresse suspect",
+      "recommandation": "Vérification documentaire"
+    }
+  ],
+  "execution": {
+    "prolog": "=== LANCEMENT DE LA DETECTION DE FRAUDES ===\nDetection sur les citoyens...\n\nAnalyse de adama_traore:\n\n[TRACE] Regle A2-AccaparementFamilial declenchee\n        Variables: [adama_traore,8]\n        Justification: La famille de adama_traore possede 8 parcelles, depassant le seuil de 8\n  - [ALERTE A2] Accaparement familial\n\n[TRACE] Regle B1-ReventeUltraRapide declenchee\n        Variables: [adama_traore,p_pissy_01,50]\n        Justification: adama_traore a revendu la parcelle p_pissy_01 apres 50 jours (seuil < 90 jours)\n  - [ALERTE B1] Revente ultra-rapide\n\n[TRACE] Regle B2-PlusValueAnormale declenchee\n        Variables: [adama_traore,p_pissy_01,225.0]\n        Justification: adama_traore a realise une plus-value de 225.0%% sur la parcelle p_pissy_01 (seuil > 100%%)\n  - [ALERTE B2] Plus-value anormale\n\nAnalyse de fatoumata_traore:\n\n[TRACE] Regle A2-AccaparementFamilial declenchee\n        Variables: [fatoumata_traore,8]\n        Justification: La famille de fatoumata_traore possede 8 parcelles, depassant le seuil de 8\n  - [ALERTE A2] Accaparement familial\n\n[TRACE] Regle B1-ReventeUltraRapide declenchee\n        Variables: [fatoumata_traore,p_pissy_01,60]\n        Justification: fatoumata_traore a revendu la parcelle p_pissy_01 apres 60 jours (seuil < 90 jours)\n  - [ALERTE B1] Revente ultra-rapide\n\nAnalyse de ibrahim_traore:\n\n[TRACE] Regle A2-AccaparementFamilial declenchee\n        Variables: [ibrahim_traore,8]\n        Justification: La famille de ibrahim_traore possede 8 parcelles, depassant le seuil de 8\n  - [ALERTE A2] Accaparement familial\n\nAnalyse de rasmata_sawadogo:\n\n[TRACE] Regle A1-Multipropriete declenchee\n        Variables: [rasmata_sawadogo,6]\n        Justification: La personne rasmata_sawadogo possede 6 parcelles, ce qui depasse la limite de 5\n  - [ALERTE A1] Multipropriete excessive\n\n[TRACE] Regle B1-ReventeUltraRapide declenchee\n        Variables: [rasmata_sawadogo,p_kossodo_01,45]\n        Justification: rasmata_sawadogo a revendu la parcelle p_kossodo_01 apres 45 jours (seuil < 90 jours)\n  - [ALERTE B1] Revente ultra-rapide\n\n[TRACE] Regle B2-PlusValueAnormale declenchee\n        Variables: [rasmata_sawadogo,p_kossodo_01,350.0]\n        Justification: rasmata_sawadogo a realise une plus-value de 350.0%% sur la parcelle p_kossodo_01 (seuil > 100%%)\n  - [ALERTE B2] Plus-value anormale\nDetection sur les agents publics...\n\nAnalyse de modou:\n\n[TRACE] Regle C1-AutoAttribution declenchee\n        Variables: [modou,d1]\n        Justification: L agent public modou a traite son propre dossier d1\n  - [ALERTE C1] Auto-attribution\n\nAnalyse de moussa_compaore:\n\n[TRACE] Regle C1-AutoAttribution declenchee\n        Variables: [moussa_compaore,dos_bf_001]\n        Justification: L agent public moussa_compaore a traite son propre dossier dos_bf_001\n  - [ALERTE C1] Auto-attribution\n\nAnalyse de lassina_yameogo:\n\n[TRACE] Regle C2-TraitementFamilial declenchee\n        Variables: [lassina_yameogo,dos_bf_002,adama_traore]\n        Justification: L agent lassina_yameogo a traite un dossier dont le beneficiaire adama_traore est un parent\n  - [ALERTE C2] Traitement familial\nDetection sur les promoteurs...\nDetection sur le dataset Burkina...\n  - Cas analyses: 200\n  - Cas critiques: 50\n  - Accaparements dataset: 30\n  - Speculations dataset: 40\n  - Cas limites: 20\nDetection sur les relations...\n\nAnalyse des relations:\n\n[TRACE] Regle D1-PreteNomTelephone declenchee\n        Variables: [abdou,ousmane,[p1]]\n        Justification: abdou et ousmane partagent le meme telephone et possedent ensemble les parcelles [p1]\n  - [ALERTE D1] Prete-nom detecte entre abdou et ousmane (telephone partage)\n\n[TRACE] Regle D1-PreteNomTelephone declenchee\n        Variables: [adama_traore,fatoumata_traore,[p_pissy_01]]\n        Justification: adama_traore et fatoumata_traore partagent le meme telephone et possedent ensemble les parcelles [p_pissy_01]\n  - [ALERTE D1] Prete-nom detecte entre adama_traore et fatoumata_traore (telephone partage)\n\n[TRACE] Regle D1-PreteNomTelephone declenchee\n        Variables: [boureima_sankara,rasmata_sawadogo,[p_kossodo_01]]\n        Justification: boureima_sankara et rasmata_sawadogo partagent le meme telephone et possedent ensemble les parcelles [p_kossodo_01]\n  - [ALERTE D1] Prete-nom detecte entre boureima_sankara et rasmata_sawadogo (telephone partage)\n\n[TRACE] Regle D2-PreteNomAdresse declenchee\n        Variables: [adama_traore,fatoumata_traore,[p_pissy_01]]\n        Justification: adama_traore et fatoumata_traore partagent la meme adresse et les parcelles communes [p_pissy_01]\n  - [ALERTE D2] Prete-nom detecte entre adama_traore et fatoumata_traore (adresse partagee)\n\n[TRACE] Regle D2-PreteNomAdresse declenchee\n        Variables: [boureima_sankara,rasmata_sawadogo,[p_kossodo_01]]\n        Justification: boureima_sankara et rasmata_sawadogo partagent la meme adresse et les parcelles communes [p_kossodo_01]\n  - [ALERTE D2] Prete-nom detecte entre boureima_sankara et rasmata_sawadogo (adresse partagee)\n\n[TRACE] Regle D3-TransactionCirculaire declenchee\n        Variables: [adama_traore,fatoumata_traore,ibrahim_traore]\n        Justification: Cycle de revente detecte entre adama_traore, fatoumata_traore et ibrahim_traore sur une meme parcelle\n  - [ALERTE D3] Transaction circulaire: adama_traore -> fatoumata_traore -> ibrahim_traore\n\n[TRACE] Regle D4-PartageIBANSuspect declenchee\n        Variables: [adama_traore,fatoumata_traore,[p_pissy_01]]\n        Justification: adama_traore et fatoumata_traore partagent un IBAN et des parcelles communes [p_pissy_01]\n  - [ALERTE D4] IBAN suspect partage entre adama_traore et fatoumata_traore\n=== FIN DE LA DETECTION ===",
+    "problog": "blanchiment_foncier(abdou):\t0.85      \n         conflit_interet(modou):\t0.75      \nconflit_interet_indirect(modou):\t0.55      \n        fraude_composite(abdou):\t0.69265   \n        fraude_composite(modou):\t0.75      \n       prete_nom(abdou,ousmane):\t0.93      \n   risque_documentaire(doc_123):\t0.9       \n           risque_fraude(abdou):\t0.99685   \n           risque_fraude(modou):\t0.8875    \n         risque_fraude(ousmane):\t0         \n             speculateur(abdou):\t0.7",
+    "deepproblog": "=== LANDGUARD - DETECTION NEURO-SYMBOLIQUE ===\n\n--- PREDICTIONS NEURONALES ---\nabdou: fraudeur (confiance: 0.51)\nmodou: standard (confiance: 0.85)\nousmane: fraudeur (confiance: 0.39)\nfatou: standard (confiance: 0.60)\ndiallo: speculateur (confiance: 0.59)\n\n--- ALERTES HYBRIDES ---\nALERTE: Fraude hybride detectee pour Abdou !\n\n--- SCORES DE CONFIANCE HYBRIDE ---\nAbdou: 0.69\nModou: 0.22\nOusmane: 0.20\n\n--- DECISIONS EXPLICABLES ---\nAbdou: OK - Aucune anomalie detectee\nModou: OK - Aucune anomalie detectee\nOusmane: OK - Aucune anomalie detectee"
+  }
+}

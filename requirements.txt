@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy>=1.24
+streamlit>=1.35
+torch>=2.0
+
+problog>=2.2
+pyswip>=0.3
+deepproblog>=2.0

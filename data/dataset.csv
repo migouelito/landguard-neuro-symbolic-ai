@@ -1,0 +1,201 @@
+id,nom,type,nb_parcelles,parcelles_urbaines,parcelles_rurales,frequence_revente,plus_value,nb_liens_reseau,partage_telephone,partage_adresse,age_premier_achat,nb_dossiers_traites,agent_public,description,score_risque
+1,Ouaga_Std_001,standard,2,1,1,0,0.10,0,0,0,34,0,0,Comportement foncier normal a Ouagadougou,0.20
+2,Ouaga_Std_002,standard,1,0,1,1,0.08,0,0,0,39,1,0,Comportement foncier normal a Ouagadougou,0.23
+3,Ouaga_Std_003,standard,3,2,1,1,0.15,1,0,0,45,1,0,Comportement foncier normal a Ouagadougou,0.28
+4,Ouaga_Std_004,standard,2,1,0,0,0.12,0,0,0,31,0,0,Comportement foncier normal a Ouagadougou,0.21
+5,Ouaga_Std_005,standard,1,1,0,1,0.05,0,0,0,28,1,0,Comportement foncier normal a Ouagadougou,0.18
+6,Ouaga_Std_006,standard,3,1,2,1,0.18,1,0,0,47,1,0,Comportement foncier normal a Ouagadougou,0.29
+7,Ouaga_Std_007,standard,2,0,1,0,0.07,0,0,0,36,0,0,Comportement foncier normal a Ouagadougou,0.19
+8,Ouaga_Std_008,standard,1,0,0,1,0.09,0,0,0,42,1,0,Comportement foncier normal a Ouagadougou,0.22
+9,Ouaga_Std_009,standard,3,2,0,1,0.16,1,0,0,50,1,0,Comportement foncier normal a Ouagadougou,0.30
+10,Ouaga_Std_010,standard,2,1,1,0,0.11,0,0,0,33,0,0,Comportement foncier normal a Ouagadougou,0.20
+11,Ouaga_Std_011,standard,1,1,1,1,0.13,0,0,0,40,1,0,Comportement foncier normal a Ouagadougou,0.24
+12,Ouaga_Std_012,standard,2,0,2,0,0.06,0,0,0,29,0,0,Comportement foncier normal a Ouagadougou,0.17
+13,Ouaga_Spec_013,speculation,3,2,1,2,0.88,2,1,1,41,1,0,Revente rapide et plus-value anormale a Ouagadougou,0.72
+14,Ouaga_Spec_014,speculation,4,3,1,3,1.12,2,1,1,46,2,0,Revente rapide et plus-value anormale a Ouagadougou,0.86
+15,Ouaga_Acc_015,accaparement,8,6,1,0,0.12,2,0,0,44,1,0,Concentration urbaine forte a Ouagadougou,0.68
+16,Ouaga_Acc_016,accaparement,10,7,2,1,0.18,3,1,0,52,1,0,Concentration urbaine forte a Ouagadougou,0.84
+17,Ouaga_Lim_017,limite,4,3,1,2,0.58,1,0,1,37,0,0,Cas frontalier a surveiller a Ouagadougou,0.55
+18,Ouaga_Lim_018,limite,5,4,0,3,0.63,2,1,0,48,0,0,Cas frontalier a surveiller a Ouagadougou,0.76
+19,Ouaga_Fraud_019,fraude_sophistiquee,7,4,2,3,1.54,4,1,0,57,3,1,Reseau familial de prete-noms,0.98
+20,Ouaga_Fraud_020,fraude_sophistiquee,9,5,2,4,2.10,5,1,1,61,4,1,Conflit d interet indirect avec notaire,1.00
+21,Bobo_Std_021,standard,2,1,1,0,0.10,0,0,0,34,0,0,Comportement foncier normal a Bobo-Dioulasso,0.20
+22,Bobo_Std_022,standard,1,0,1,1,0.08,0,0,0,39,1,0,Comportement foncier normal a Bobo-Dioulasso,0.23
+23,Bobo_Std_023,standard,3,2,1,1,0.15,1,0,0,45,1,0,Comportement foncier normal a Bobo-Dioulasso,0.28
+24,Bobo_Std_024,standard,2,1,0,0,0.12,0,0,0,31,0,0,Comportement foncier normal a Bobo-Dioulasso,0.21
+25,Bobo_Std_025,standard,1,1,0,1,0.05,0,0,0,28,1,0,Comportement foncier normal a Bobo-Dioulasso,0.18
+26,Bobo_Std_026,standard,3,1,2,1,0.18,1,0,0,47,1,0,Comportement foncier normal a Bobo-Dioulasso,0.29
+27,Bobo_Std_027,standard,2,0,1,0,0.07,0,0,0,36,0,0,Comportement foncier normal a Bobo-Dioulasso,0.19
+28,Bobo_Std_028,standard,1,0,0,1,0.09,0,0,0,42,1,0,Comportement foncier normal a Bobo-Dioulasso,0.22
+29,Bobo_Std_029,standard,3,2,0,1,0.16,1,0,0,50,1,0,Comportement foncier normal a Bobo-Dioulasso,0.30
+30,Bobo_Std_030,standard,2,1,1,0,0.11,0,0,0,33,0,0,Comportement foncier normal a Bobo-Dioulasso,0.20
+31,Bobo_Std_031,standard,1,1,1,1,0.13,0,0,0,40,1,0,Comportement foncier normal a Bobo-Dioulasso,0.24
+32,Bobo_Std_032,standard,2,0,2,0,0.06,0,0,0,29,0,0,Comportement foncier normal a Bobo-Dioulasso,0.17
+33,Bobo_Spec_033,speculation,3,2,1,2,0.88,2,1,1,41,1,0,Revente rapide et plus-value anormale a Bobo-Dioulasso,0.72
+34,Bobo_Spec_034,speculation,4,3,1,3,1.12,2,1,1,46,2,0,Revente rapide et plus-value anormale a Bobo-Dioulasso,0.86
+35,Bobo_Acc_035,accaparement,8,6,1,0,0.12,2,0,0,44,1,0,Concentration urbaine forte a Bobo-Dioulasso,0.68
+36,Bobo_Acc_036,accaparement,10,7,2,1,0.18,3,1,0,52,1,0,Concentration urbaine forte a Bobo-Dioulasso,0.84
+37,Bobo_Lim_037,limite,4,3,1,2,0.58,1,0,1,37,0,0,Cas frontalier a surveiller a Bobo-Dioulasso,0.55
+38,Bobo_Lim_038,limite,5,4,0,3,0.63,2,1,0,48,0,0,Cas frontalier a surveiller a Bobo-Dioulasso,0.76
+39,Bobo_Fraud_039,fraude_sophistiquee,7,4,2,3,1.54,4,1,0,57,3,1,Reseau circulaire de blanchiment foncier,0.98
+40,Bobo_Fraud_040,fraude_sophistiquee,9,5,2,4,2.10,5,1,1,61,4,1,Promoteur fantome sans identite stable,1.00
+41,Koudougou_Std_041,standard,2,1,1,0,0.10,0,0,0,34,0,0,Comportement foncier normal a Koudougou,0.20
+42,Koudougou_Std_042,standard,1,0,1,1,0.08,0,0,0,39,1,0,Comportement foncier normal a Koudougou,0.23
+43,Koudougou_Std_043,standard,3,2,1,1,0.15,1,0,0,45,1,0,Comportement foncier normal a Koudougou,0.28
+44,Koudougou_Std_044,standard,2,1,0,0,0.12,0,0,0,31,0,0,Comportement foncier normal a Koudougou,0.21
+45,Koudougou_Std_045,standard,1,1,0,1,0.05,0,0,0,28,1,0,Comportement foncier normal a Koudougou,0.18
+46,Koudougou_Std_046,standard,3,1,2,1,0.18,1,0,0,47,1,0,Comportement foncier normal a Koudougou,0.29
+47,Koudougou_Std_047,standard,2,0,1,0,0.07,0,0,0,36,0,0,Comportement foncier normal a Koudougou,0.19
+48,Koudougou_Std_048,standard,1,0,0,1,0.09,0,0,0,42,1,0,Comportement foncier normal a Koudougou,0.22
+49,Koudougou_Std_049,standard,3,2,0,1,0.16,1,0,0,50,1,0,Comportement foncier normal a Koudougou,0.30
+50,Koudougou_Std_050,standard,2,1,1,0,0.11,0,0,0,33,0,0,Comportement foncier normal a Koudougou,0.20
+51,Koudougou_Std_051,standard,1,1,1,1,0.13,0,0,0,40,1,0,Comportement foncier normal a Koudougou,0.24
+52,Koudougou_Std_052,standard,2,0,2,0,0.06,0,0,0,29,0,0,Comportement foncier normal a Koudougou,0.17
+53,Koudougou_Spec_053,speculation,3,2,1,2,0.88,2,1,1,41,1,0,Revente rapide et plus-value anormale a Koudougou,0.72
+54,Koudougou_Spec_054,speculation,4,3,1,3,1.12,2,1,1,46,2,0,Revente rapide et plus-value anormale a Koudougou,0.86
+55,Koudougou_Acc_055,accaparement,8,6,1,0,0.12,2,0,0,44,1,0,Concentration urbaine forte a Koudougou,0.68
+56,Koudougou_Acc_056,accaparement,10,7,2,1,0.18,3,1,0,52,1,0,Concentration urbaine forte a Koudougou,0.84
+57,Koudougou_Lim_057,limite,4,3,1,2,0.58,1,0,1,37,0,0,Cas frontalier a surveiller a Koudougou,0.55
+58,Koudougou_Lim_058,limite,5,4,0,3,0.63,2,1,0,48,0,0,Cas frontalier a surveiller a Koudougou,0.76
+59,Koudougou_Fraud_059,fraude_sophistiquee,7,4,2,3,1.54,4,1,0,57,3,1,Reseau familial de prete-noms,0.98
+60,Koudougou_Fraud_060,fraude_sophistiquee,9,5,2,4,2.10,5,1,1,61,4,1,Conflit d interet indirect avec notaire,1.00
+61,Banfora_Std_061,standard,2,1,1,0,0.10,0,0,0,34,0,0,Comportement foncier normal a Banfora,0.20
+62,Banfora_Std_062,standard,1,0,1,1,0.08,0,0,0,39,1,0,Comportement foncier normal a Banfora,0.23
+63,Banfora_Std_063,standard,3,2,1,1,0.15,1,0,0,45,1,0,Comportement foncier normal a Banfora,0.28
+64,Banfora_Std_064,standard,2,1,0,0,0.12,0,0,0,31,0,0,Comportement foncier normal a Banfora,0.21
+65,Banfora_Std_065,standard,1,1,0,1,0.05,0,0,0,28,1,0,Comportement foncier normal a Banfora,0.18
+66,Banfora_Std_066,standard,3,1,2,1,0.18,1,0,0,47,1,0,Comportement foncier normal a Banfora,0.29
+67,Banfora_Std_067,standard,2,0,1,0,0.07,0,0,0,36,0,0,Comportement foncier normal a Banfora,0.19
+68,Banfora_Std_068,standard,1,0,0,1,0.09,0,0,0,42,1,0,Comportement foncier normal a Banfora,0.22
+69,Banfora_Std_069,standard,3,2,0,1,0.16,1,0,0,50,1,0,Comportement foncier normal a Banfora,0.30
+70,Banfora_Std_070,standard,2,1,1,0,0.11,0,0,0,33,0,0,Comportement foncier normal a Banfora,0.20
+71,Banfora_Std_071,standard,1,1,1,1,0.13,0,0,0,40,1,0,Comportement foncier normal a Banfora,0.24
+72,Banfora_Std_072,standard,2,0,2,0,0.06,0,0,0,29,0,0,Comportement foncier normal a Banfora,0.17
+73,Banfora_Spec_073,speculation,3,2,1,2,0.88,2,1,1,41,1,0,Revente rapide et plus-value anormale a Banfora,0.72
+74,Banfora_Spec_074,speculation,4,3,1,3,1.12,2,1,1,46,2,0,Revente rapide et plus-value anormale a Banfora,0.86
+75,Banfora_Acc_075,accaparement,8,6,1,0,0.12,2,0,0,44,1,0,Concentration urbaine forte a Banfora,0.68
+76,Banfora_Acc_076,accaparement,10,7,2,1,0.18,3,1,0,52,1,0,Concentration urbaine forte a Banfora,0.84
+77,Banfora_Lim_077,limite,4,3,1,2,0.58,1,0,1,37,0,0,Cas frontalier a surveiller a Banfora,0.55
+78,Banfora_Lim_078,limite,5,4,0,3,0.63,2,1,0,48,0,0,Cas frontalier a surveiller a Banfora,0.76
+79,Banfora_Fraud_079,fraude_sophistiquee,7,4,2,3,1.54,4,1,0,57,3,1,Promoteur fantome sans identite stable,0.98
+80,Banfora_Fraud_080,fraude_sophistiquee,9,5,2,4,2.10,5,1,1,61,4,1,Fraude composite neuro-symbolique,1.00
+81,Kaya_Std_081,standard,2,1,1,0,0.10,0,0,0,34,0,0,Comportement foncier normal a Kaya,0.20
+82,Kaya_Std_082,standard,1,0,1,1,0.08,0,0,0,39,1,0,Comportement foncier normal a Kaya,0.23
+83,Kaya_Std_083,standard,3,2,1,1,0.15,1,0,0,45,1,0,Comportement foncier normal a Kaya,0.28
+84,Kaya_Std_084,standard,2,1,0,0,0.12,0,0,0,31,0,0,Comportement foncier normal a Kaya,0.21
+85,Kaya_Std_085,standard,1,1,0,1,0.05,0,0,0,28,1,0,Comportement foncier normal a Kaya,0.18
+86,Kaya_Std_086,standard,3,1,2,1,0.18,1,0,0,47,1,0,Comportement foncier normal a Kaya,0.29
+87,Kaya_Std_087,standard,2,0,1,0,0.07,0,0,0,36,0,0,Comportement foncier normal a Kaya,0.19
+88,Kaya_Std_088,standard,1,0,0,1,0.09,0,0,0,42,1,0,Comportement foncier normal a Kaya,0.22
+89,Kaya_Std_089,standard,3,2,0,1,0.16,1,0,0,50,1,0,Comportement foncier normal a Kaya,0.30
+90,Kaya_Std_090,standard,2,1,1,0,0.11,0,0,0,33,0,0,Comportement foncier normal a Kaya,0.20
+91,Kaya_Std_091,standard,1,1,1,1,0.13,0,0,0,40,1,0,Comportement foncier normal a Kaya,0.24
+92,Kaya_Std_092,standard,2,0,2,0,0.06,0,0,0,29,0,0,Comportement foncier normal a Kaya,0.17
+93,Kaya_Spec_093,speculation,3,2,1,2,0.88,2,1,1,41,1,0,Revente rapide et plus-value anormale a Kaya,0.72
+94,Kaya_Spec_094,speculation,4,3,1,3,1.12,2,1,1,46,2,0,Revente rapide et plus-value anormale a Kaya,0.86
+95,Kaya_Acc_095,accaparement,8,6,1,0,0.12,2,0,0,44,1,0,Concentration urbaine forte a Kaya,0.68
+96,Kaya_Acc_096,accaparement,10,7,2,1,0.18,3,1,0,52,1,0,Concentration urbaine forte a Kaya,0.84
+97,Kaya_Lim_097,limite,4,3,1,2,0.58,1,0,1,37,0,0,Cas frontalier a surveiller a Kaya,0.55
+98,Kaya_Lim_098,limite,5,4,0,3,0.63,2,1,0,48,0,0,Cas frontalier a surveiller a Kaya,0.76
+99,Kaya_Fraud_099,fraude_sophistiquee,7,4,2,3,1.54,4,1,0,57,3,1,Reseau circulaire de blanchiment foncier,0.98
+100,Kaya_Fraud_100,fraude_sophistiquee,9,5,2,4,2.10,5,1,1,61,4,1,Reseau familial de prete-noms,1.00
+101,Fada_Ngourma_Std_101,standard,2,1,1,0,0.10,0,0,0,34,0,0,Comportement foncier normal a Fada Ngourma,0.20
+102,Fada_Ngourma_Std_102,standard,1,0,1,1,0.08,0,0,0,39,1,0,Comportement foncier normal a Fada Ngourma,0.23
+103,Fada_Ngourma_Std_103,standard,3,2,1,1,0.15,1,0,0,45,1,0,Comportement foncier normal a Fada Ngourma,0.28
+104,Fada_Ngourma_Std_104,standard,2,1,0,0,0.12,0,0,0,31,0,0,Comportement foncier normal a Fada Ngourma,0.21
+105,Fada_Ngourma_Std_105,standard,1,1,0,1,0.05,0,0,0,28,1,0,Comportement foncier normal a Fada Ngourma,0.18
+106,Fada_Ngourma_Std_106,standard,3,1,2,1,0.18,1,0,0,47,1,0,Comportement foncier normal a Fada Ngourma,0.29
+107,Fada_Ngourma_Std_107,standard,2,0,1,0,0.07,0,0,0,36,0,0,Comportement foncier normal a Fada Ngourma,0.19
+108,Fada_Ngourma_Std_108,standard,1,0,0,1,0.09,0,0,0,42,1,0,Comportement foncier normal a Fada Ngourma,0.22
+109,Fada_Ngourma_Std_109,standard,3,2,0,1,0.16,1,0,0,50,1,0,Comportement foncier normal a Fada Ngourma,0.30
+110,Fada_Ngourma_Std_110,standard,2,1,1,0,0.11,0,0,0,33,0,0,Comportement foncier normal a Fada Ngourma,0.20
+111,Fada_Ngourma_Std_111,standard,1,1,1,1,0.13,0,0,0,40,1,0,Comportement foncier normal a Fada Ngourma,0.24
+112,Fada_Ngourma_Std_112,standard,2,0,2,0,0.06,0,0,0,29,0,0,Comportement foncier normal a Fada Ngourma,0.17
+113,Fada_Ngourma_Spec_113,speculation,3,2,1,2,0.88,2,1,1,41,1,0,Revente rapide et plus-value anormale a Fada Ngourma,0.72
+114,Fada_Ngourma_Spec_114,speculation,4,3,1,3,1.12,2,1,1,46,2,0,Revente rapide et plus-value anormale a Fada Ngourma,0.86
+115,Fada_Ngourma_Acc_115,accaparement,8,6,1,0,0.12,2,0,0,44,1,0,Concentration urbaine forte a Fada Ngourma,0.68
+116,Fada_Ngourma_Acc_116,accaparement,10,7,2,1,0.18,3,1,0,52,1,0,Concentration urbaine forte a Fada Ngourma,0.84
+117,Fada_Ngourma_Lim_117,limite,4,3,1,2,0.58,1,0,1,37,0,0,Cas frontalier a surveiller a Fada Ngourma,0.55
+118,Fada_Ngourma_Lim_118,limite,5,4,0,3,0.63,2,1,0,48,0,0,Cas frontalier a surveiller a Fada Ngourma,0.76
+119,Fada_Ngourma_Fraud_119,fraude_sophistiquee,7,4,2,3,1.54,4,1,0,57,3,1,Promoteur fantome sans identite stable,0.98
+120,Fada_Ngourma_Fraud_120,fraude_sophistiquee,9,5,2,4,2.10,5,1,1,61,4,1,Fraude composite neuro-symbolique,1.00
+121,Ouahigouya_Std_121,standard,2,1,1,0,0.10,0,0,0,34,0,0,Comportement foncier normal a Ouahigouya,0.20
+122,Ouahigouya_Std_122,standard,1,0,1,1,0.08,0,0,0,39,1,0,Comportement foncier normal a Ouahigouya,0.23
+123,Ouahigouya_Std_123,standard,3,2,1,1,0.15,1,0,0,45,1,0,Comportement foncier normal a Ouahigouya,0.28
+124,Ouahigouya_Std_124,standard,2,1,0,0,0.12,0,0,0,31,0,0,Comportement foncier normal a Ouahigouya,0.21
+125,Ouahigouya_Std_125,standard,1,1,0,1,0.05,0,0,0,28,1,0,Comportement foncier normal a Ouahigouya,0.18
+126,Ouahigouya_Std_126,standard,3,1,2,1,0.18,1,0,0,47,1,0,Comportement foncier normal a Ouahigouya,0.29
+127,Ouahigouya_Std_127,standard,2,0,1,0,0.07,0,0,0,36,0,0,Comportement foncier normal a Ouahigouya,0.19
+128,Ouahigouya_Std_128,standard,1,0,0,1,0.09,0,0,0,42,1,0,Comportement foncier normal a Ouahigouya,0.22
+129,Ouahigouya_Std_129,standard,3,2,0,1,0.16,1,0,0,50,1,0,Comportement foncier normal a Ouahigouya,0.30
+130,Ouahigouya_Std_130,standard,2,1,1,0,0.11,0,0,0,33,0,0,Comportement foncier normal a Ouahigouya,0.20
+131,Ouahigouya_Std_131,standard,1,1,1,1,0.13,0,0,0,40,1,0,Comportement foncier normal a Ouahigouya,0.24
+132,Ouahigouya_Std_132,standard,2,0,2,0,0.06,0,0,0,29,0,0,Comportement foncier normal a Ouahigouya,0.17
+133,Ouahigouya_Spec_133,speculation,3,2,1,2,0.88,2,1,1,41,1,0,Revente rapide et plus-value anormale a Ouahigouya,0.72
+134,Ouahigouya_Spec_134,speculation,4,3,1,3,1.12,2,1,1,46,2,0,Revente rapide et plus-value anormale a Ouahigouya,0.86
+135,Ouahigouya_Acc_135,accaparement,8,6,1,0,0.12,2,0,0,44,1,0,Concentration urbaine forte a Ouahigouya,0.68
+136,Ouahigouya_Acc_136,accaparement,10,7,2,1,0.18,3,1,0,52,1,0,Concentration urbaine forte a Ouahigouya,0.84
+137,Ouahigouya_Lim_137,limite,4,3,1,2,0.58,1,0,1,37,0,0,Cas frontalier a surveiller a Ouahigouya,0.55
+138,Ouahigouya_Lim_138,limite,5,4,0,3,0.63,2,1,0,48,0,0,Cas frontalier a surveiller a Ouahigouya,0.76
+139,Ouahigouya_Fraud_139,fraude_sophistiquee,7,4,2,3,1.54,4,1,0,57,3,1,Reseau familial de prete-noms,0.98
+140,Ouahigouya_Fraud_140,fraude_sophistiquee,9,5,2,4,2.10,5,1,1,61,4,1,Conflit d interet indirect avec notaire,1.00
+141,Tenkodogo_Std_141,standard,2,1,1,0,0.10,0,0,0,34,0,0,Comportement foncier normal a Tenkodogo,0.20
+142,Tenkodogo_Std_142,standard,1,0,1,1,0.08,0,0,0,39,1,0,Comportement foncier normal a Tenkodogo,0.23
+143,Tenkodogo_Std_143,standard,3,2,1,1,0.15,1,0,0,45,1,0,Comportement foncier normal a Tenkodogo,0.28
+144,Tenkodogo_Std_144,standard,2,1,0,0,0.12,0,0,0,31,0,0,Comportement foncier normal a Tenkodogo,0.21
+145,Tenkodogo_Std_145,standard,1,1,0,1,0.05,0,0,0,28,1,0,Comportement foncier normal a Tenkodogo,0.18
+146,Tenkodogo_Std_146,standard,3,1,2,1,0.18,1,0,0,47,1,0,Comportement foncier normal a Tenkodogo,0.29
+147,Tenkodogo_Std_147,standard,2,0,1,0,0.07,0,0,0,36,0,0,Comportement foncier normal a Tenkodogo,0.19
+148,Tenkodogo_Std_148,standard,1,0,0,1,0.09,0,0,0,42,1,0,Comportement foncier normal a Tenkodogo,0.22
+149,Tenkodogo_Std_149,standard,3,2,0,1,0.16,1,0,0,50,1,0,Comportement foncier normal a Tenkodogo,0.30
+150,Tenkodogo_Std_150,standard,2,1,1,0,0.11,0,0,0,33,0,0,Comportement foncier normal a Tenkodogo,0.20
+151,Tenkodogo_Std_151,standard,1,1,1,1,0.13,0,0,0,40,1,0,Comportement foncier normal a Tenkodogo,0.24
+152,Tenkodogo_Std_152,standard,2,0,2,0,0.06,0,0,0,29,0,0,Comportement foncier normal a Tenkodogo,0.17
+153,Tenkodogo_Spec_153,speculation,3,2,1,2,0.88,2,1,1,41,1,0,Revente rapide et plus-value anormale a Tenkodogo,0.72
+154,Tenkodogo_Spec_154,speculation,4,3,1,3,1.12,2,1,1,46,2,0,Revente rapide et plus-value anormale a Tenkodogo,0.86
+155,Tenkodogo_Acc_155,accaparement,8,6,1,0,0.12,2,0,0,44,1,0,Concentration urbaine forte a Tenkodogo,0.68
+156,Tenkodogo_Acc_156,accaparement,10,7,2,1,0.18,3,1,0,52,1,0,Concentration urbaine forte a Tenkodogo,0.84
+157,Tenkodogo_Lim_157,limite,4,3,1,2,0.58,1,0,1,37,0,0,Cas frontalier a surveiller a Tenkodogo,0.55
+158,Tenkodogo_Lim_158,limite,5,4,0,3,0.63,2,1,0,48,0,0,Cas frontalier a surveiller a Tenkodogo,0.76
+159,Tenkodogo_Fraud_159,fraude_sophistiquee,7,4,2,3,1.54,4,1,0,57,3,1,Reseau circulaire de blanchiment foncier,0.98
+160,Tenkodogo_Fraud_160,fraude_sophistiquee,9,5,2,4,2.10,5,1,1,61,4,1,Promoteur fantome sans identite stable,1.00
+161,Dori_Std_161,standard,2,1,1,0,0.10,0,0,0,34,0,0,Comportement foncier normal a Dori,0.20
+162,Dori_Std_162,standard,1,0,1,1,0.08,0,0,0,39,1,0,Comportement foncier normal a Dori,0.23
+163,Dori_Std_163,standard,3,2,1,1,0.15,1,0,0,45,1,0,Comportement foncier normal a Dori,0.28
+164,Dori_Std_164,standard,2,1,0,0,0.12,0,0,0,31,0,0,Comportement foncier normal a Dori,0.21
+165,Dori_Std_165,standard,1,1,0,1,0.05,0,0,0,28,1,0,Comportement foncier normal a Dori,0.18
+166,Dori_Std_166,standard,3,1,2,1,0.18,1,0,0,47,1,0,Comportement foncier normal a Dori,0.29
+167,Dori_Std_167,standard,2,0,1,0,0.07,0,0,0,36,0,0,Comportement foncier normal a Dori,0.19
+168,Dori_Std_168,standard,1,0,0,1,0.09,0,0,0,42,1,0,Comportement foncier normal a Dori,0.22
+169,Dori_Std_169,standard,3,2,0,1,0.16,1,0,0,50,1,0,Comportement foncier normal a Dori,0.30
+170,Dori_Std_170,standard,2,1,1,0,0.11,0,0,0,33,0,0,Comportement foncier normal a Dori,0.20
+171,Dori_Std_171,standard,1,1,1,1,0.13,0,0,0,40,1,0,Comportement foncier normal a Dori,0.24
+172,Dori_Std_172,standard,2,0,2,0,0.06,0,0,0,29,0,0,Comportement foncier normal a Dori,0.17
+173,Dori_Spec_173,speculation,3,2,1,2,0.88,2,1,1,41,1,0,Revente rapide et plus-value anormale a Dori,0.72
+174,Dori_Spec_174,speculation,4,3,1,3,1.12,2,1,1,46,2,0,Revente rapide et plus-value anormale a Dori,0.86
+175,Dori_Acc_175,accaparement,8,6,1,0,0.12,2,0,0,44,1,0,Concentration urbaine forte a Dori,0.68
+176,Dori_Acc_176,accaparement,10,7,2,1,0.18,3,1,0,52,1,0,Concentration urbaine forte a Dori,0.84
+177,Dori_Lim_177,limite,4,3,1,2,0.58,1,0,1,37,0,0,Cas frontalier a surveiller a Dori,0.55
+178,Dori_Lim_178,limite,5,4,0,3,0.63,2,1,0,48,0,0,Cas frontalier a surveiller a Dori,0.76
+179,Dori_Fraud_179,fraude_sophistiquee,7,4,2,3,1.54,4,1,0,57,3,1,Fraude composite neuro-symbolique,0.98
+180,Dori_Fraud_180,fraude_sophistiquee,9,5,2,4,2.10,5,1,1,61,4,1,Reseau familial de prete-noms,1.00
+181,Gaoua_Std_181,standard,2,1,1,0,0.10,0,0,0,34,0,0,Comportement foncier normal a Gaoua,0.20
+182,Gaoua_Std_182,standard,1,0,1,1,0.08,0,0,0,39,1,0,Comportement foncier normal a Gaoua,0.23
+183,Gaoua_Std_183,standard,3,2,1,1,0.15,1,0,0,45,1,0,Comportement foncier normal a Gaoua,0.28
+184,Gaoua_Std_184,standard,2,1,0,0,0.12,0,0,0,31,0,0,Comportement foncier normal a Gaoua,0.21
+185,Gaoua_Std_185,standard,1,1,0,1,0.05,0,0,0,28,1,0,Comportement foncier normal a Gaoua,0.18
+186,Gaoua_Std_186,standard,3,1,2,1,0.18,1,0,0,47,1,0,Comportement foncier normal a Gaoua,0.29
+187,Gaoua_Std_187,standard,2,0,1,0,0.07,0,0,0,36,0,0,Comportement foncier normal a Gaoua,0.19
+188,Gaoua_Std_188,standard,1,0,0,1,0.09,0,0,0,42,1,0,Comportement foncier normal a Gaoua,0.22
+189,Gaoua_Std_189,standard,3,2,0,1,0.16,1,0,0,50,1,0,Comportement foncier normal a Gaoua,0.30
+190,Gaoua_Std_190,standard,2,1,1,0,0.11,0,0,0,33,0,0,Comportement foncier normal a Gaoua,0.20
+191,Gaoua_Std_191,standard,1,1,1,1,0.13,0,0,0,40,1,0,Comportement foncier normal a Gaoua,0.24
+192,Gaoua_Std_192,standard,2,0,2,0,0.06,0,0,0,29,0,0,Comportement foncier normal a Gaoua,0.17
+193,Gaoua_Spec_193,speculation,3,2,1,2,0.88,2,1,1,41,1,0,Revente rapide et plus-value anormale a Gaoua,0.72
+194,Gaoua_Spec_194,speculation,4,3,1,3,1.12,2,1,1,46,2,0,Revente rapide et plus-value anormale a Gaoua,0.86
+195,Gaoua_Acc_195,accaparement,8,6,1,0,0.12,2,0,0,44,1,0,Concentration urbaine forte a Gaoua,0.68
+196,Gaoua_Acc_196,accaparement,10,7,2,1,0.18,3,1,0,52,1,0,Concentration urbaine forte a Gaoua,0.84
+197,Gaoua_Lim_197,limite,4,3,1,2,0.58,1,0,1,37,0,0,Cas frontalier a surveiller a Gaoua,0.55
+198,Gaoua_Lim_198,limite,5,4,0,3,0.63,2,1,0,48,0,0,Cas frontalier a surveiller a Gaoua,0.76
+199,Gaoua_Fraud_199,fraude_sophistiquee,7,4,2,3,1.54,4,1,0,57,3,1,Promoteur fantome sans identite stable,0.98
+200,Gaoua_Fraud_200,fraude_sophistiquee,9,5,2,4,2.10,5,1,1,61,4,1,Fraude composite neuro-symbolique,1.00

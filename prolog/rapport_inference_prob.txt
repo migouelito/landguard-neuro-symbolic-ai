@@ -1,0 +1,47 @@
+LANDGUARD - Rapport d'inference probabiliste ProbLog
+====================================================
+
+Commande d'execution attendue:
+  problog prolog/queries.pl
+
+Modele utilise:
+  prolog/probabilistic_rules.pl
+
+Requetes principales:
+  - prete_nom(abdou, ousmane)
+  - speculateur(abdou)
+  - conflit_interet(modou)
+  - conflit_interet_indirect(modou)
+  - blanchiment_foncier(abdou)
+  - risque_fraude(abdou)
+  - risque_fraude(modou)
+  - risque_fraude(ousmane)
+  - fraude_composite(abdou)
+  - fraude_composite(modou)
+  - risque_documentaire(doc_123)
+
+Interpretation attendue:
+  - Probabilite < 0.30  : risque faible
+  - 0.30 <= P < 0.60   : risque moyen
+  - 0.60 <= P < 0.80   : risque eleve
+  - P >= 0.80          : risque critique
+
+Lecture fonctionnelle:
+  Abdou cumule plusieurs sources incertaines: partage de telephone,
+  partage d'adresse, speculation et transaction circulaire. Il doit donc
+  ressortir avec un risque eleve ou critique selon la combinaison exacte
+  calculee par ProbLog.
+
+  Modou est expose au conflit d'interet direct et indirect. Son niveau
+  attendu est au moins eleve, avec une justification administrative claire:
+  il traite un dossier dont il est beneficiaire et possede un lien familial
+  avec un autre beneficiaire.
+
+  Ousmane n'est pas la source principale du reseau dans les clauses actuelles.
+  Son risque depend surtout de sa relation avec Abdou et doit rester inferieur
+  aux profils Abdou et Modou.
+
+Remarque:
+  Ce fichier documente l'execution attendue. Les probabilites exactes doivent
+  etre regenerees avec la commande ProbLog ci-dessus dans un environnement ou
+  le paquet problog est installe.

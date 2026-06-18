@@ -1,0 +1,87 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 1226 >>
+stream
+BT /F1 18 Tf 170 815 Td (Diagramme conceptuel LandGuard AI) Tj ET
+0.1 0.1 0.1 RG
+0.92 0.96 1 rg
+210 760 180 32 re B
+0 0 0 rg
+BT /F1 10 Tf
+218 773 Td (LandGuard Neuro-Symbolic AI) Tj
+ET
+0.92 0.96 1 rg
+45 675 125 32 re B
+0 0 0 rg
+BT /F1 10 Tf
+53 688 Td (Description Logic) Tj
+ET
+0.92 0.96 1 rg
+235 675 125 32 re B
+0 0 0 rg
+BT /F1 10 Tf
+243 688 Td (SWI-Prolog) Tj
+ET
+0.92 0.96 1 rg
+425 675 125 32 re B
+0 0 0 rg
+BT /F1 10 Tf
+433 688 Td (ProbLog) Tj
+ET
+0.92 0.96 1 rg
+135 575 125 32 re B
+0 0 0 rg
+BT /F1 10 Tf
+143 588 Td (PyTorch) Tj
+ET
+0.92 0.96 1 rg
+335 575 125 32 re B
+0 0 0 rg
+BT /F1 10 Tf
+343 588 Td (DeepProbLog) Tj
+ET
+0.92 0.96 1 rg
+210 465 180 32 re B
+0 0 0 rg
+BT /F1 10 Tf
+218 478 Td (XAI / Rapport consolide) Tj
+ET
+0 0 0 RG
+300 760 m 108 707 l S
+300 760 m 298 707 l S
+300 760 m 488 707 l S
+298 675 m 198 607 l S
+488 675 m 398 607 l S
+198 575 m 300 497 l S
+398 575 m 300 497 l S
+0 0 0 rg
+BT /F1 10 Tf 50 405 Td (Flux: dataset.csv -> modele neuronal -> regles symboliques/probabilistes -> decision explicable.) Tj ET
+BT /F1 10 Tf 50 383 Td (Concepts: Acteur, Parcelle, Affectation, Dossier, LienSocial.) Tj ET
+BT /F1 10 Tf 50 363 Td (Relations: possede, traite, beneficiaire, vendA, partageTelephone, partageAdresse.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000001463 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1589
+%%EOF

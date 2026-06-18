@@ -1,0 +1,96 @@
+{"rapport": {"date": "2026-06-12","alertes": [{
+  "regle": "A2-AccaparementFamilial",
+  "timestamp": "1781784173.8340847",
+  "variables": "[adama_traore,8]",
+  "justification": "La famille de adama_traore possede 8 parcelles, depassant le seuil de 8"
+},{
+  "regle": "B1-ReventeUltraRapide",
+  "timestamp": "1781784173.8341122",
+  "variables": "[adama_traore,p_pissy_01,50]",
+  "justification": "adama_traore a revendu la parcelle p_pissy_01 apres 50 jours (seuil < 90 jours)"
+},{
+  "regle": "B2-PlusValueAnormale",
+  "timestamp": "1781784173.834146",
+  "variables": "[adama_traore,p_pissy_01,225.0]",
+  "justification": "adama_traore a realise une plus-value de 225.0%% sur la parcelle p_pissy_01 (seuil > 100%%)"
+},{
+  "regle": "A2-AccaparementFamilial",
+  "timestamp": "1781784173.8341897",
+  "variables": "[fatoumata_traore,8]",
+  "justification": "La famille de fatoumata_traore possede 8 parcelles, depassant le seuil de 8"
+},{
+  "regle": "B1-ReventeUltraRapide",
+  "timestamp": "1781784173.8342116",
+  "variables": "[fatoumata_traore,p_pissy_01,60]",
+  "justification": "fatoumata_traore a revendu la parcelle p_pissy_01 apres 60 jours (seuil < 90 jours)"
+},{
+  "regle": "A2-AccaparementFamilial",
+  "timestamp": "1781784173.8342538",
+  "variables": "[ibrahim_traore,8]",
+  "justification": "La famille de ibrahim_traore possede 8 parcelles, depassant le seuil de 8"
+},{
+  "regle": "A1-Multipropriete",
+  "timestamp": "1781784173.8342874",
+  "variables": "[rasmata_sawadogo,6]",
+  "justification": "La personne rasmata_sawadogo possede 6 parcelles, ce qui depasse la limite de 5"
+},{
+  "regle": "B1-ReventeUltraRapide",
+  "timestamp": "1781784173.8343165",
+  "variables": "[rasmata_sawadogo,p_kossodo_01,45]",
+  "justification": "rasmata_sawadogo a revendu la parcelle p_kossodo_01 apres 45 jours (seuil < 90 jours)"
+},{
+  "regle": "B2-PlusValueAnormale",
+  "timestamp": "1781784173.83434",
+  "variables": "[rasmata_sawadogo,p_kossodo_01,350.0]",
+  "justification": "rasmata_sawadogo a realise une plus-value de 350.0%% sur la parcelle p_kossodo_01 (seuil > 100%%)"
+},{
+  "regle": "C1-AutoAttribution",
+  "timestamp": "1781784173.834404",
+  "variables": "[modou,d1]",
+  "justification": "L agent public modou a traite son propre dossier d1"
+},{
+  "regle": "C1-AutoAttribution",
+  "timestamp": "1781784173.8344357",
+  "variables": "[moussa_compaore,dos_bf_001]",
+  "justification": "L agent public moussa_compaore a traite son propre dossier dos_bf_001"
+},{
+  "regle": "C2-TraitementFamilial",
+  "timestamp": "1781784173.8344626",
+  "variables": "[lassina_yameogo,dos_bf_002,adama_traore]",
+  "justification": "L agent lassina_yameogo a traite un dossier dont le beneficiaire adama_traore est un parent"
+},{
+  "regle": "D1-PreteNomTelephone",
+  "timestamp": "1781784173.835832",
+  "variables": "[abdou,ousmane,[p1]]",
+  "justification": "abdou et ousmane partagent le meme telephone et possedent ensemble les parcelles [p1]"
+},{
+  "regle": "D1-PreteNomTelephone",
+  "timestamp": "1781784173.8358667",
+  "variables": "[adama_traore,fatoumata_traore,[p_pissy_01]]",
+  "justification": "adama_traore et fatoumata_traore partagent le meme telephone et possedent ensemble les parcelles [p_pissy_01]"
+},{
+  "regle": "D1-PreteNomTelephone",
+  "timestamp": "1781784173.8358967",
+  "variables": "[boureima_sankara,rasmata_sawadogo,[p_kossodo_01]]",
+  "justification": "boureima_sankara et rasmata_sawadogo partagent le meme telephone et possedent ensemble les parcelles [p_kossodo_01]"
+},{
+  "regle": "D2-PreteNomAdresse",
+  "timestamp": "1781784173.835933",
+  "variables": "[adama_traore,fatoumata_traore,[p_pissy_01]]",
+  "justification": "adama_traore et fatoumata_traore partagent la meme adresse et les parcelles communes [p_pissy_01]"
+},{
+  "regle": "D2-PreteNomAdresse",
+  "timestamp": "1781784173.8359618",
+  "variables": "[boureima_sankara,rasmata_sawadogo,[p_kossodo_01]]",
+  "justification": "boureima_sankara et rasmata_sawadogo partagent la meme adresse et les parcelles communes [p_kossodo_01]"
+},{
+  "regle": "D3-TransactionCirculaire",
+  "timestamp": "1781784173.8359904",
+  "variables": "[adama_traore,fatoumata_traore,ibrahim_traore]",
+  "justification": "Cycle de revente detecte entre adama_traore, fatoumata_traore et ibrahim_traore sur une meme parcelle"
+},{
+  "regle": "D4-PartageIBANSuspect",
+  "timestamp": "1781784173.836022",
+  "variables": "[adama_traore,fatoumata_traore,[p_pissy_01]]",
+  "justification": "adama_traore et fatoumata_traore partagent un IBAN et des parcelles communes [p_pissy_01]"
+}]}
