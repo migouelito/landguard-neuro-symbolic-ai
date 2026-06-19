@@ -289,9 +289,8 @@ achete(abdou, p2, 2022, 80000).
 vendA(abdou, ousmane, p3, 2024, 150000).
 achete(abdou, p3, 2024, 140000).
 
-% ================================================================
+
 % SECTION 7: EXTENSION BURKINA FASO POUR LA DEMONSTRATION
-% ================================================================
 
 % Acteurs supplementaires issus de scenarios fonciers burkinabe.
 citoyen(abdou_ouedraogo).
