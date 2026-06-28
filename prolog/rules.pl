@@ -178,7 +178,6 @@ regle_d4_partage_iban_suspect(X, Y) :-
     possede(X, Parcelle),
     possede(Y, Parcelle).
 
-% ... (tout votre code existant jusqu'à fraude_detectee) ...
 
 % ================================================================
 % REGLE GLOBALE DE FRAUDE

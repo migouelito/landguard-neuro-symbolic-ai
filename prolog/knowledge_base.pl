@@ -1,23 +1,43 @@
 
 
 :- discontiguous citoyen/1.
+:- dynamic citoyen/1. % donné qu''on peut injecter
+
 :- discontiguous agent_public/1.
+:- dynamic agent_public/1.  % donné qu''on peut injecter
+
 :- discontiguous promoteur/1.
 :- discontiguous notaire/1.
 :- discontiguous dossier_actif/1.
+
 :- discontiguous parcelle_urbaine/1.
+:- dynamic parcelle_urbaine/1. % donné qu''on peut injecter
+
 :- discontiguous parcelle_rurale/1.
+:- dynamic parcelle_rurale/1.% donné qu''on peut injecter
+
 :- discontiguous possede/2.
+:- dynamic possede/2. % donné qu''on peut injecter
+
 :- discontiguous traite/2.
+:- dynamic traite/2. % donné qu''on peut injecter
+
 :- discontiguous beneficiaire/2.
+:- dynamic beneficiaire/2. % donné qu''on peut injecter
+
 :- discontiguous lien_familial/2.
 :- discontiguous lien_professionnel/2.
 :- discontiguous lien_financier/2.
 :- discontiguous partage_telephone/2.
 :- discontiguous partage_adresse/2.
 :- discontiguous partage_iban/2.
+
 :- discontiguous vendA/5.
+:- dynamic vendA/5. % donné qu''on peut injecter
+
 :- discontiguous achete/4.
+:- dynamic achete/4. % donné qu''on peut injecter
+
 :- discontiguous valeur_marche/2.
 
 % Concepts principaux

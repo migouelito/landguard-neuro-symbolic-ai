@@ -1,0 +1,145 @@
+Les 10 AXIOMES 
+---
+
+**Axiome 1 : Accapareur urbain**
+Un citoyen est considéré comme un accapareur urbain lorsqu'il possède au moins quatre parcelles urbaines.
+**DL :**
+AccapareurUrbain ≡ Citoyen ⊓ (≥4 possede.ParcelleUrbaine)
+
+---
+
+**Axiome 2 : Conflit d'intérêt direct**
+Un agent public est en situation de conflit d'intérêt lorsqu'il traite un dossier dont il est lui-même bénéficiaire.
+**DL :**
+ConflitInteretDirect ≡ AgentPublic ⊓ ∃traite.Dossier ⊓ ∃beneficiaire.Dossier
+
+---
+
+**Axiome 3 : Spéculateur foncier**
+Une personne est considérée comme spéculateur foncier lorsqu'elle revend une parcelle moins d'un an après son acquisition en réalisant une plus-value supérieure à 50 %.
+**DL :**
+SpeculateurFoncier ≡ Personne ⊓ ∃achete.Parcelle ⊓ ∃vend.Parcelle
+(*les contraintes de temps et de pourcentage sont gérées hors DL*)
+
+---
+
+**Axiome 4 : Prête-nom**
+Un citoyen est considéré comme un prête-nom lorsqu'il possède une parcelle et partage le même numéro de téléphone qu'une autre personne possédant également cette parcelle.
+**DL :**
+PreteNom ≡ Citoyen ⊓ ∃possede.Parcelle ⊓ ∃partageTelephone.Citoyen
+
+---
+
+**Axiome 5 : Réseau de corruption**
+Un agent public appartient à un réseau de corruption lorsqu'il traite un dossier dont le bénéficiaire entretient un lien financier avec lui.
+**DL :**
+ReseauCorruption ≡ AgentPublic ⊓ ∃traite.Dossier ⊓ ∃lienFinancier.Personne
+
+---
+
+**Axiome 6 : Promoteur fantôme**
+Un promoteur est qualifié de promoteur fantôme lorsqu'il effectue des transactions foncières suspectes sans posséder officiellement de parcelles.
+**DL :**
+PromoteurFantome ≡ Promoteur ⊓ ¬∃possede.Parcelle ⊓ ∃transactionSuspecte.Transaction
+
+---
+
+**Axiome 7 : Dossier suspect**
+Un dossier actif est considéré comme suspect lorsqu'il comporte au moins trois alertes de fraude ou d'irrégularité.
+**DL :**
+DossierSuspect ≡ DossierActif ⊓ (≥3 contientAlerte.Alerte)
+
+---
+
+**Axiome 8 : Accaparement familial**
+Une famille est en situation d'accaparement foncier lorsque ses membres possèdent collectivement au moins huit parcelles urbaines.
+**DL :**
+AccaparementFamilial ≡ Famille ⊓ (≥8 possede.ParcelleUrbaine)
+
+---
+
+**Axiome 9 : Blanchiment circulaire**
+Il y a blanchiment circulaire lorsqu'une même parcelle est vendue successivement entre plusieurs personnes puis revient à son propriétaire initial dans un court délai.
+**DL :**
+BlanchimentCirculaire ≡ Parcelle ⊓ ∃cycleVente.Transaction
+
+---
+
+**Axiome 10 : Notaire complice**
+Un notaire est considéré comme complice lorsqu'il intervient dans au moins cinq dossiers reconnus comme suspects.
+**DL :**
+NotaireComplice ≡ Notaire ⊓ (≥5 traite.DossierSuspect)
+
+
+LES 8 CONTRAINTES D'INTEGRITES
+
+
+
+---
+
+### **CI-1 : Auto-traitement interdit**
+
+Un agent public ne peut pas traiter un dossier dont il est le bénéficiaire.
+**DL / règle :**
+AgentPublic ⊓ ∃traite.Dossier ⊓ ∃beneficiaire.Dossier ⊑ ⊥
+*(ou contrainte d’incohérence)*
+
+---
+
+### **CI-2 : Limite de possession de parcelles urbaines**
+
+Un citoyen ne peut pas posséder plus de 3 parcelles urbaines.
+**DL :**
+Citoyen ⊓ (≥4 possede.ParcelleUrbaine) ⊑ ⊥
+
+---
+
+### **CI-3 : Unicité de propriété d’une parcelle**
+
+Une parcelle ne peut pas avoir plusieurs propriétaires en même temps.
+**DL :**
+Parcelle ⊓ ∃possede⁻.Personne ⊓ (≥2 possede⁻.Personne) ⊑ ⊥
+*(ou : fonctionnalité du rôle “possede” inversé)*
+
+---
+
+### **CI-4 : Conflit notaire–bénéficiaire interdit**
+
+Un notaire ne peut pas être bénéficiaire d’un dossier qu’il traite.
+**DL :**
+Notaire ⊓ ∃traite.Dossier ⊓ ∃beneficiaire.Dossier ⊑ ⊥
+
+---
+
+### **CI-5 : Partage de téléphone suspect**
+
+Deux personnes différentes ne peuvent pas partager un numéro de téléphone si elles possèdent une même parcelle (suspicion de prête-nom).
+**DL :**
+(Citoyen ⊓ ∃partageTelephone.Citoyen ⊓ ∃possede.Parcelle ⊓ ∃possede.Parcelle) ⊑ ⊥
+
+---
+
+### **CI-6 : Cohérence des dates de transaction**
+
+Une vente ne peut pas avoir une date antérieure ou égale à la date d’achat.
+**DL :**
+Transaction ⊓ (dateVente ≤ dateAchat) ⊑ ⊥
+
+---
+
+### **CI-7 : Promoteur doit posséder au moins une parcelle**
+
+Un promoteur sans parcelle est incohérent dans le système.
+**DL :**
+Promoteur ⊓ ¬∃possede.Parcelle ⊑ ⊥
+
+---
+
+### **CI-8 : Dossier suspect ne peut pas être actif**
+
+Un dossier suspect ne peut pas rester actif dans le système.
+**DL :**
+DossierSuspect ⊓ DossierActif ⊑ ⊥
+
+---
+
